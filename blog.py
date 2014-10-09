@@ -52,7 +52,7 @@ def main():
 	posts = [dict(title=row[0], post=row[1]) for row in 
 		cur.fetchall()]
 	g.db.close()
-	return render_template('main.html', posts=posts)
+	return render_template('main.html', posts=posts), 200
 
 @app.route('/add', methods=['POST'])
 @login_required
