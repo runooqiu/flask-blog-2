@@ -1,4 +1,4 @@
-#!"/Users/bweese/Google Drive/Programming/Real Python/flask-blog/env/bin/python"
+#!/usr/bin/env python
 
 # -*- coding: utf-8 -*-
 import re
